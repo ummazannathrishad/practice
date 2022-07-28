@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 
  import Blogs from './components/Blogs';
- import Contract from './components/contract';
+ import Blog from './components/Blog';
+ import Contract from './components/Contract';
  import Error from './components/Error';
  import Navber from './components/Navber';
 
@@ -31,6 +32,7 @@ function App ()  {
               <Route path="/home" element={<Home/>} />
               <Route path="/contract" element={<Contract/>} />
               <Route path="/blogs" element={<Blogs/>} />
+              <Route path="/blogs/:title" element={<Blog/>} />
               <Route path="*" element={<Error/>} />
             </Routes>
      </BrowserRouter>

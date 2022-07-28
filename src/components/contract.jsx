@@ -1,18 +1,43 @@
 import React from 'react';
 
-const contract = () => {
- 
+
+const Contract = () => {
+  
 
   return (
-    <div>
-      <h1>Contract page</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus doloremque assumenda nemo sit dicta, iste, voluptatum maxime tempora minima, voluptatibus aliquid facilis! Vitae eius vero, optio adipisci repellendus illum perferendis assumenda neque voluptate exercitationem vel nobis hic autem atque delectus voluptatem maxime illo fugit. Quaerat, fugiat. Blanditii nostrum consequatur sed!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae et consequatur. Quos porro repellendus debitis! Asperiores, suscipit? Culpa harum ullam vel, quia explicabo adipisci deserunt maiores dignissimos quis placeat.</p>
+    <>
+     <div className="section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="left-side">
+              <h2>send us a message</h2>
+              <form className="all-form">
+              <div className="form-outline mb-4">
+                                    <input type="text" id="form4Example1" className="form-control" placeholder="Name"/>
+                                    </div>
+                                    <div className="form-outline mb-4">
+                                    <input type="text" id="form4Example1" className="form-control" placeholder="email"/>
+                                    
+                                </div>
+                                <div className="form-outline mb-4">
+                                    <input type="text" id="form4Example1" className="form-control" placeholder="Message"/>
+                                    
+                                </div>
+                                <button type="submit" className="btn btn-custom btn-custom-size btn-block mb-4">
+                                    Send
+                                </button>
+              </form>
+              
+          </div>
+        </div>
 
-        
-    </div>
+      </div>
+      </div>
+      </div>
+      </>
      
   );
 };
 
-export default contract;
+export default Contract;

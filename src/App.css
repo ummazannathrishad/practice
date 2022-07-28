@@ -57,3 +57,33 @@ nav{
   color: aqua;
   
 }
+section{
+  display: grid;
+  grid-gap: 1rem;
+}
+article{
+  background-color: aliceblue;
+}
+@media screen and (min-width:600px) {
+  section{
+    grid-template-columns: auto auto;
+  }
+  
+}
+@media screen and (min-width:912px) {
+  section{
+    grid-template-columns: auto auto;
+  }
+  
+}
+/* contact */
+.left-side{
+  background-color: azure;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  text-align: center;
+  
+}
